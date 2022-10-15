@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Mycodes-Cms-/Mycodes-Cms-.csproj",
+                "${workspaceFolder}/Mycodes-Cms-/Mycodes-Cms-/Mycodes-Cms-.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Mycodes-Cms-/Mycodes-Cms-.csproj",
+                "${workspaceFolder}/Mycodes-Cms-/Mycodes-Cms-/Mycodes-Cms-.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/Mycodes-Cms-/Mycodes-Cms-.csproj"
+                "${workspaceFolder}/Mycodes-Cms-/Mycodes-Cms-/Mycodes-Cms-.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
