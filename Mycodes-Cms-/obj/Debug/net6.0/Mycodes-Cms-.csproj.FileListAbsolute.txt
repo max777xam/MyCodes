@@ -1,0 +1,15 @@
+D:\MyCodes\Mycodes-Cms-\bin\Debug\net6.0\Mycodes-Cms-.exe
+D:\MyCodes\Mycodes-Cms-\bin\Debug\net6.0\Mycodes-Cms-.deps.json
+D:\MyCodes\Mycodes-Cms-\bin\Debug\net6.0\Mycodes-Cms-.runtimeconfig.json
+D:\MyCodes\Mycodes-Cms-\bin\Debug\net6.0\Mycodes-Cms-.dll
+D:\MyCodes\Mycodes-Cms-\bin\Debug\net6.0\Mycodes-Cms-.pdb
+D:\MyCodes\Mycodes-Cms-\obj\Debug\net6.0\Mycodes-Cms-.csproj.AssemblyReference.cache
+D:\MyCodes\Mycodes-Cms-\obj\Debug\net6.0\Mycodes-Cms-.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyCodes\Mycodes-Cms-\obj\Debug\net6.0\Mycodes-Cms-.AssemblyInfoInputs.cache
+D:\MyCodes\Mycodes-Cms-\obj\Debug\net6.0\Mycodes-Cms-.AssemblyInfo.cs
+D:\MyCodes\Mycodes-Cms-\obj\Debug\net6.0\Mycodes-Cms-.csproj.CoreCompileInputs.cache
+D:\MyCodes\Mycodes-Cms-\obj\Debug\net6.0\Mycodes-Cms-.dll
+D:\MyCodes\Mycodes-Cms-\obj\Debug\net6.0\refint\Mycodes-Cms-.dll
+D:\MyCodes\Mycodes-Cms-\obj\Debug\net6.0\Mycodes-Cms-.pdb
+D:\MyCodes\Mycodes-Cms-\obj\Debug\net6.0\Mycodes-Cms-.genruntimeconfig.cache
+D:\MyCodes\Mycodes-Cms-\obj\Debug\net6.0\ref\Mycodes-Cms-.dll
