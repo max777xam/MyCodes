@@ -1,3 +1,0 @@
-# MyCodes-CPP-
-
-Hello World!
