@@ -7,7 +7,6 @@ int encrypt(char *text, char *result, char *k)
     int l = strlen(text);
     for (i = 0; i < l; i++)
     {
-        //�жϴ�Сд
         if (text[i] >= 'A' && text[i] <= 'Z')
         {
             if (j == m)
