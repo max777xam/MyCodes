@@ -1,3 +1,5 @@
 # MyCodes
-MY FIRST CODES WAREHOUSE
-Hello World！
+MyFirstCodesWarehouse
+
+
+Hello World!
