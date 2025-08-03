@@ -1,8 +1,6 @@
-#include <bits/stdc++.h>
-using namespace std;
-int main()
-{
-    printf("ÄãºÃÊÀ½ç!\n");
-    printf("Hello World!\n");
+#include <iostream>
+
+int main() {
+    std::cout << "Hello, World!" << std::endl;
     return 0;
 }
