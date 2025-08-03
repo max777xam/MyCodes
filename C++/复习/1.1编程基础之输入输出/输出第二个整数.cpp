@@ -2,7 +2,8 @@
 using namespace std;
 int main()
 {
-    printf("ÄãºÃÊÀ½ç!\n");
-    printf("Hello World!\n");
+    int a, b, c;
+    scanf("%d%d%d", &a, &b, &c);
+    printf("%d", b);
     return 0;
 }

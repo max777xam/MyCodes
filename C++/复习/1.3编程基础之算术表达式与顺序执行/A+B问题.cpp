@@ -2,7 +2,8 @@
 using namespace std;
 int main()
 {
-    printf("ÄãºÃÊÀ½ç!\n");
-    printf("Hello World!\n");
+    int a, b;
+    scanf("%d%d", &a, &b);
+    cout << a + b << endl;
     return 0;
 }

@@ -2,7 +2,8 @@
 using namespace std;
 int main()
 {
-    printf("ÄãºÃÊÀ½ç!\n");
-    printf("Hello World!\n");
+    float a;
+    double b;
+    cout << sizeof(a) << " " << sizeof(b);
     return 0;
 }

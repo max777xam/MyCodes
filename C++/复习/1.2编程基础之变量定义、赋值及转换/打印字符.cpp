@@ -2,7 +2,9 @@
 using namespace std;
 int main()
 {
-    printf("ÄãºÃÊÀ½ç!\n");
-    printf("Hello World!\n");
+    int a;
+    cin >> a;
+    char ans = a;
+    cout << ans << endl;
     return 0;
 }

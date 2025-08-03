@@ -2,7 +2,6 @@
 using namespace std;
 int main()
 {
-    printf("ÄãºÃÊÀ½ç!\n");
-    printf("Hello World!\n");
+    cout << sizeof("Hello,World!") << endl;
     return 0;
 }
