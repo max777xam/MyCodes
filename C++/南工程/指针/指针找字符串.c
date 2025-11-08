@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-int find(char *p, char *q, char *taget)
+int find(char *p, char *q, char *target)
 {
     while (*p != '\0')
     {
@@ -17,7 +17,7 @@ int find(char *p, char *q, char *taget)
         else
         {
             p++;
-            q = taget;
+            q = target;
         }
     }
     return 0;
@@ -25,13 +25,15 @@ int find(char *p, char *q, char *taget)
 int main()
 {
     char str[100];
-    char taget[100];
-    fgets(str, 100, stdin);
-    str[strcspn(str, "\n")] = '\0';
-    fgets(taget, 100, stdin);
-    taget[strcspn(taget, "\n")] = '\0';
+    char target[100];
+    scanf("%s", str);
+    scanf("%s", target);
+    // fgets(str, 100, stdin);
+    // str[strcspn(str, "\n")] = '\0';
+    // fgets(taget, 100, stdin);
+    // taget[strcspn(taget, "\n")] = '\0';
     char *p = str;
-    char *q = taget;
-    printf("%d", find(p, q, taget));
+    char *q = target;
+    printf("%d", find(p, q, target));
     return 0;
 }
