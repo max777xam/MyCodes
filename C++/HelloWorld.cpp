@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    printf("????!\n");
+    printf("ÄãºÃÊÀ½ç!\n");
     printf("Hello World!\n");
     return 0;
 }
