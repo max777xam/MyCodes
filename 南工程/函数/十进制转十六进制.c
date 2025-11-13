@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
+char hex[32];
 char *DecToHex(int dec)
 {
-    static char hex[32];
     char hexDigits[] = "0123456789ABCDEF";
     int i = 0;
     int isNegative = 0;
