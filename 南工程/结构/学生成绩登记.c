@@ -27,14 +27,8 @@ void output(struct student *p, int n)
     int i, j;
     for (i = 0; i < n; i++)
     {
-        printf("学号：%d\n", p[i].num);
+        printf("学号：%2d ", p[i].num);
         printf("姓名：%s\n", p[i].name);
-        printf("性别：%c\n", p[i].sex);
-        printf("成绩：");
-        for (j = 0; j < 4; j++)
-        {
-            printf("%d ", p[i].score[j]);
-        }
     }
 }
 void sort(struct student *p, int n)
