@@ -12,15 +12,15 @@ struct Node
 // 创建新节点
 struct Node *createNode(int data)
 {
-    struct Node *newNode = (struct Node *)malloc(sizeof(struct Node));
-    if (newNode == NULL)
+    struct Node *newNode = (struct Node *)malloc(sizeof(struct Node)); //  为新节点分配内存空间
+    if (newNode == NULL)                                               //  检查内存是否分配成功
     {
-        printf("内存分配失败!\n");
-        exit(1);
+        printf("内存分配失败!\n"); //  内存分配失败时输出错误信息并退出程序
+        exit(1);                   // 使用 exit(1) 函数终止程序，参数 1 表示程序异常退出
     }
-    newNode->data = data;
-    newNode->next = NULL;
-    return newNode;
+    newNode->data = data; //  将传入的数据赋值给新节点的数据域
+    newNode->next = NULL; //  将新节点的指针域初始化为NULL，表示当前节点是链表的最后一个节点
+    return newNode;       //  返回创建并初始化完成的新节点
 }
 // 在链表开头插入节点
 void insertAtBeginning(struct Node **head, int data)
@@ -28,7 +28,7 @@ void insertAtBeginning(struct Node **head, int data)
     struct Node *newNode = createNode(data);
     newNode->next = *head; // 新节点指向原来的头节点
     *head = newNode;       // 更新头指针指向新节点
-    printf("在开头插入: %d\n", data);
+    printf("在开头插入: %d\n", data); 
 }
 // 在链表末尾插入节点
 void insertAtEnd(struct Node **head, int data)
@@ -54,7 +54,7 @@ void insertAtEnd(struct Node **head, int data)
     temp->next = newNode;
     printf("在末尾插入: %d\n", data);
 }
-// 显示链表所有节点
+ 
 void displayList(struct Node *head)
 {
     if (head == NULL)
