@@ -1,5 +1,3 @@
 # MyCodes
 MyFirstCodesWarehouse
-
-
 Hello World!
