@@ -122,8 +122,7 @@ int verify_solution(double x)
 /*
  * 搜索区间内的所有根
  */
-int find_roots_in_interval(double start, double end, double step,
-                           double *solutions, int max_solutions)
+int find_roots_in_interval(double start, double end, double step, double *solutions, int max_solutions)
 {
     int count = 0;
     double a = start;
@@ -187,9 +186,7 @@ int main()
     num_solutions = find_roots_in_interval(0.1, 30.0, 0.5, solutions, 100);
     // 搜索负数区间的解
     printf("\n【搜索负数解】\n");
-    int neg_count = find_roots_in_interval(-30.0, -0.1, 0.5,
-                                           solutions + num_solutions,
-                                           100 - num_solutions);
+    int neg_count = find_roots_in_interval(-30.0, -0.1, 0.5, solutions + num_solutions, 100 - num_solutions);
     num_solutions += neg_count;
     // 对解进行排序
     for (int i = 0; i < num_solutions - 1; i++)
